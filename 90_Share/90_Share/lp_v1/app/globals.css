@@ -1,0 +1,12 @@
+/* 他のグローバルスタイル */
+
+/* Fade animation for slider */
+.slick-fade .slick-slide {
+  opacity: 0;
+  transition: opacity 1000ms ease;
+}
+
+.slick-fade .slick-slide.slick-active {
+  opacity: 1;
+}
+
